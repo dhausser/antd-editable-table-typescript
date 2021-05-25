@@ -8,7 +8,7 @@ import './index.css'
 
 const Wrapper = styled.div`
   margin: 4rem auto;
-  width: 75rem;
+  width: 50rem;
 `
 
 const EditableContext = React.createContext<FormInstance<any> | null>(null)
